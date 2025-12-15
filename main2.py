@@ -63,4 +63,5 @@ def show_club_info(e):
             Number of Members: {info['members']}
             Category: {info['category']}
             """
+
     display(output, target="club-info")
