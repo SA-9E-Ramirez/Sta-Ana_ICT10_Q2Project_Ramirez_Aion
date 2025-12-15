@@ -2,49 +2,40 @@ from pyscript import display, document
 
 # Define club information using dictionaries
 club_info = {
-            "chess": {
-                "name": "Chess Club",
-                "description": "For all the chess nerds who can't stop opening chess.com during class.",
+            "chemistry": {
+                "name": "Combustion Club",
+                "description": "Handles the explosives and other chemical-based reactions in fireworks. Please do not laugh at the data.",
                 "meeting_time": "Every Wednesday 3:30-5:00 PM",
-                "location": "Room 3851919",
-                "advisor": "Mr. Chavez",
-                "members": 16,
+                "location": "Room 8-D",
+                "advisor": "Ms. Andry",
+                "members": 69,
                 "category": "Academic"
             },
-            "drama": {
-                "name": "Drama Club",
-                "description": "Heavily encourages offensive controversies.",
+            "physics": {
+                "name": "Physics Club",
+                "description": "For students good at projectile motion. Will focus on calculating firework trajectories.",
                 "meeting_time": "Every Monday and Thursday 4:00-6:00 PM",
-                "location": "Principal's Office",
-                "advisor": "Mr. Ramirez",
-                "members": 28,
-                "category": "Arts"
+                "location": "Courtyard",
+                "advisor": "Mr. Inferno",
+                "members": 47,
+                "category": "Academic"
             },
-            "robotics": {
-                "name": "Robotics Club",
-                "description": "The objectively best club.",
+            "engineering": {
+                "name": "Engineering Club",
+                "description": "This club focuses on building the fireworks, launchers, and control panels.",
                 "meeting_time": "Every Tuesday 3:45-5:30 PM",
                 "location": "Rooftop",
-                "advisor": "Mr. Versa",
-                "members": 743,
-                "category": "Academic"
-            },
-            "debate": {
-                "name": "Food Club",
-                "description": "If breaktime was mandatory overtime.",
-                "meeting_time": "Every Friday 3:30-5:00 PM",
-                "location": "Cafeteria",
-                "advisor": "Mr. Razonable",
-                "members": 341,
+                "advisor": "Mr. Ramirez",
+                "members": 80,
                 "category": "Academic"
             },
             "art": {
                 "name": "Art Club",
-                "description": "Unleash your true potential of being able to draw ANYTHING.",
+                "description": "Plan and create whatever design you can think of, then blow it up and watch it paint the skies!",
                 "meeting_time": "Every Wednesday 3:45-5:15 PM",
-                "location": "Behind the School",
-                "advisor": "Mr. Omnes",
-                "members": 51,
+                "location": "Fireproofed Art Room",
+                "advisor": "Ms. Alotaya",
+                "members": 39,
                 "category": "Arts"
             }
         }
@@ -65,3 +56,4 @@ def show_club_info(e):
             """
 
     display(output, target="club-info")
+
